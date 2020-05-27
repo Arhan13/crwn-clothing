@@ -77,7 +77,7 @@ const mapDispatchToProps = dispatch => ({
   setCurrentUser: user => dispatch(setCurrentUser(user))
   //It goes to a function which gets the user object and then calls dispatch
   //Dispatch basically takes an action object that it passes to every reducer
-  //Our user action is a function is basically a function with takes in user object and returns action object
+  //Our user action is basically a function with takes in user object and returns action object
 });
 
 
